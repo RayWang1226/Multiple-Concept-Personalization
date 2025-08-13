@@ -1,0 +1,18 @@
+[
+    {
+        "prompt":"A flower in a vase.",
+        "residual_dict": {
+            "<flower>":"residuals/flower_colab.pt",
+            "<vase>":"residuals/vase_colab.pt"
+        },
+        "color_context":{
+            "255,0,0":["vase",2.5],
+            "0,255,0":["flower",2.5]
+        },
+        "guidance_steps":50,
+        "guidance_weight":0.08,  
+        "weight_negative":-1e8,
+        "layout":"layouts/layout_prompt1.png",
+        "subject_list":[["<flower>",2],["<vase>",5]]
+    }
+]

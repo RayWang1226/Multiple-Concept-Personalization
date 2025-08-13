@@ -1,0 +1,20 @@
+[
+    {
+        "prompt":"A cat wearing wearable glasses in a watercolor style.",
+        "residual_dict": {
+            "<cat2>":"residuals/cat2_colabv2.pt",
+            "<watercolor>":"residuals/watercolor_colab.pt",
+            "<wearable_glasses>":"residuals/wearable_glasses_colab.pt"
+        },
+        "color_context":{
+            "255,0,0":["cat",2.5],
+            "0,255,0":["wearable glasses",2.5],
+            "0,0,255":["watercolor",2.5]
+        },
+        "guidance_steps":50,
+        "guidance_weight":0.08,  
+        "weight_negative":-1e8,
+        "layout":"layouts/layout_prompt3.png",
+        "subject_list":[["<cat2>",2],["<wearable_glasses>",4],["<watercolor>",8]]
+    }
+]

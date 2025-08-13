@@ -1,0 +1,20 @@
+[
+    {
+        "prompt":"A dog, a pet cat and a dog near a forest.",
+        "residual_dict": {
+            "<dog>":"residuals/dog_colabv2.pt",
+            "<dog6>":"residuals/dog6_colabv6.pt",
+            "<pet_cat>":"residuals/pet_cat.pt"
+        },
+        "color_context":{
+            "255,0,0":["dog,",2.5],
+            "0,255,0":["pet cat",2.5],
+            "0,0,255":["dog",2.5]
+        },
+        "guidance_steps":50,
+        "guidance_weight":0.08,  
+        "weight_negative":-1e8,
+        "layout":"layouts/layout_prompt2.png",
+        "subject_list":[["<dog>",2],["<pet_cat>",4],["<dog6>",8]]
+    }
+]
