@@ -48,3 +48,21 @@ the weight for strengthening the signal of target subject. (default: 2.5).
 - "weight_negative": the weight for weakening the signal of irrelevant subject.
 - "layout": the path to user-defined layout image.
 - "subject_list": the list containing all the subjects to be customized and their corresponding positions in the prompt.
+
+# Acknowledgement
+
+This project extends the work of [**Cones V2**](https://github.com/ali-vilab/Cones-V2) by Liu *et al.*, titled **"Cones 2: Customizable Image Synthesis with Multiple Subjects"**, available on arXiv.  
+We thank the authors for their excellent contributions and for open-sourcing their code.
+
+# Citation
+
+If you use methods or code from Cones V2, please cite their paper:
+
+```bibtex
+@article{liu2023cones2,
+  title     = {Cones 2: Customizable Image Synthesis with Multiple Subjects},
+  author    = {Zhiheng Liu and Yifei Zhang and Yujun Shen and Kecheng Zheng and Kai Zhu and Ruili Feng and Yu Liu and Deli Zhao and Jingren Zhou and Yang Cao},
+  journal   = {arXiv preprint arXiv:2305.19327},
+  year      = {2023},
+  doi       = {10.48550/arXiv.2305.19327}
+}
