@@ -1,15 +1,16 @@
-DLCV Final Project ( Multiple Concept Personalization )
+# Multiple Concept Personalization
+This project aims to reach the goal of multiple concept personalization task. Not only do we pursue the high performance of our experiment results, but also the balance between computational cost and quality.
 
 # Usage
 To start working on this project, you should clone this repository into your local machine by using the following command.
 ```bash
-git clone https://github.com/DLCV-Fall-2024/DLCV-Fall-2024-Final-2-acl.git
+git clone https://github.com/RayWang1226/Multiple-Concept-Personalization.git
 ```
 # Environment Setup
 This work should be completed using Python 3.9.21. Create a environment under conda
 ```bash
-conda create -n dlcv_final python=3.9.21 -y
-conda activate dlcv_final
+conda create -n multi_concept python=3.9.21 -y
+conda activate multi_concept
 ```
 Install the environment with pip and requirements.txt, note that the version of pytorch should match your CUDA version.
 ```bash 
